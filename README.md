@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
 
+This project is a basic calculator app that takes 2 inputs, value A and value B to perform a sum, rest, multiplication, or division.
+
+This project implements some basic classes from bootstrap that are used in the divs and buttons to have a better looking page.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
