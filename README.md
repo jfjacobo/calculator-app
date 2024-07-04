@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This project is a basic calculator app that takes 2 inputs, value A and value B to perform a sum, rest, multiplication, or division.
 
-This project implements some basic classes from bootstrap that are used in the divs and buttons to have a better looking page.
+This project implements some basic classes from Bootstrap that are used in the divs and buttons to have a better-looking page.
 
 ## Development server
 
