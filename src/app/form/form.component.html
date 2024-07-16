@@ -1,0 +1,23 @@
+<form>
+    <div class="form-group">
+      <label>Value A</label>
+      <input type="number" class="form-control" 
+      placeholder="Type the value of the number A"
+      [(ngModel)]="valueA" name="valueA"/>
+    </div>
+    <div class="form-group" style="margin-bottom: 10px;">
+      <label>Value B</label>
+      <input type="number" class="form-control" 
+      placeholder="Type the value of the number B"
+      [(ngModel)]="valueB" name="valueB"/>
+    </div>
+    <button type="submit" class="btn btn-primary" style="margin-right: 10px;"
+    (click) = "sum()">Sum</button>
+    <button type="submit" class="btn btn-danger" style="margin-right: 10px;"
+    (click) = "rest()">Rest</button>
+    <button type="submit" class="btn btn-warning" style="margin-right: 10px;"
+    (click) = "multiply()">Multiply</button>
+    <button type="submit" class="btn btn-success" style="margin-right: 10px;"
+    (click) = "divide()">Divide</button>
+    
+  </form>
