@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-result',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './result.component.css'
 })
 export class ResultComponent {
-
+  @Input() result : number;
 }

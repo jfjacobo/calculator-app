@@ -9,10 +9,10 @@ export class AppComponent {
   title = 'Calculator App';
   //Create and initialize the variables
  
-  result: number = 0;
+  resultFather: number = 0;
 
   processResult(result: number){
-    this.result = result;
+    this.resultFather = result;
   }
   
 }

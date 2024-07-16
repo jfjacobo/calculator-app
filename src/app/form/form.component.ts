@@ -6,8 +6,8 @@ import { Component, EventEmitter, Output } from '@angular/core';
   styleUrl: './form.component.css'
 })
 export class FormComponent {
-  valueA: number = 0;
-  valueB: number = 0;
+  valueA: number ;
+  valueB: number ;
 
   @Output() resultSum = new EventEmitter<number>;
   @Output() resultRest = new EventEmitter<number>;
