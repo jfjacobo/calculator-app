@@ -1,5 +1,9 @@
 <div class="container">
   <h1>{{title}}</h1>
-  <app-form></app-form>
+  <app-form
+  (resultSum) = "processResult($event)" 
+  (resultRest) = "processResult($event)" 
+  (resultMult) = "processResult($event)" 
+  (resultDivide) = "processResult($event)"></app-form>
   <p>Result: {{result}}</p>
 </div>
